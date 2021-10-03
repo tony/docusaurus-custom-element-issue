@@ -7,7 +7,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start --port 8063",
-    "build": "docusaurus build --out-dir dist --no-minify",
+    "build": "docusaurus build --out-dir dist",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clean:oembed": "rimraf -g static/js/o-embed.bundled.js",
